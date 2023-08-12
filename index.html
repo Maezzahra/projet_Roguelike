@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Roguelike</title>
+    <link rel="stylesheet" type="text/css" href="./stlyle.css">
+    <script src="./java.js" defer></script>
+</head>
+<body>
+    <h1>Dungeon Crawler</h1>
+    <p>Score: <span id="score">0</span></p>
+    <table id="grid">
+    </table>
+    <br>
+    <button id="up" onclick="movePlayer('up')">Haut</button>
+    <button id="down" onclick="movePlayer('down')">Bas</button>
+    <button id="left" onclick="movePlayer('left')">Gauche</button>
+    <button id="right" onclick="movePlayer('right')">Droite</button>
+    <button id="reset" onclick="resetGame()">Réinitialiser</button>
+</body>
+</html>

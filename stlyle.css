@@ -1,0 +1,35 @@
+h1{
+    position: center;
+}
+table, tr, td {
+    border: 2px solid white;
+    background-color: black;
+    border-collapse: collapse;
+    
+}
+tr, td {
+    padding: 5px;
+    text-align: center;
+}
+#player {
+    background-color: white; 
+    background-image: url('./img/joueur.png'); /* source http://bitly.ws/RHdA */
+    background-size: cover; 
+}
+#monster {
+    background-color: white; 
+    background-image: url('./img/monster.jpg'); /* source http://bitly.ws/RHdN */
+    background-size: cover; 
+}
+#treasure {
+    background-color: white; 
+    background-image: url('./img/tresor.jpg'); /* source http://bitly.ws/RHeu */
+    background-size: cover; 
+}
+#wall {
+    background-color: black;
+}
+#empty {
+    background-color: white;
+    border: none;
+}
